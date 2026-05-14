@@ -97,4 +97,24 @@ See [`ROADMAP.md`](./ROADMAP.md) for future iterations and stretch goals.
 
 ---
 
+---
+
+## Links
+
+- **Repository**: [github.com/VyceeRulezU/confession-cathedral](https://github.com/VyceeRulezU/confession-cathedral)
+- **Live Demo**: [vyceerulezu.github.io/confession-cathedral](https://vyceerulezu.github.io/confession-cathedral)
+
+---
+
+## Deploy to GitHub Pages
+
+```bash
+npm run build
+npx gh-pages -d dist
+```
+
+Make sure `base` is set to `"/confession-cathedral/"` in `vite.config.js` before building.
+
+---
+
 *Built with intention. Anonymous by design.*
