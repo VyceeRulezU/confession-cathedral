@@ -7,8 +7,9 @@ export default function CharacterCounter({ count, max = 280 }) {
   return (
     <div 
       className={`${styles.counter} ${isWarning ? styles.warning : ''} ${isDanger ? styles.danger : ''}`}
-      aria-live="polite"
+      role="status"
     >
+      <span className="sr-only">Character count: </span>
       {count} / {max}
     </div>
   );

@@ -10,10 +10,11 @@ export function useRelativeTime(date) {
   const [label, setLabel] = useState(formatRelative(date));
 
   useEffect(() => {
-    // Update every 30 seconds to keep the "just now" and minute labels fresh
+    // Update every minute (60s) instead of 30s for better performance
+    // The labels only change at minute boundaries anyway after the first minute
     const interval = setInterval(() => {
       setLabel(formatRelative(date));
-    }, 30000);
+    }, 60000);
 
     return () => clearInterval(interval);
   }, [date]);
