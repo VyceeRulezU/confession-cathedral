@@ -1,0 +1,15 @@
+.counter {
+  font-family: var(--cc-font-mono);
+  font-size: var(--cc-text-xs);
+  color: var(--cc-text-muted);
+  transition: color var(--cc-transition-base);
+}
+
+.warning {
+  color: var(--cc-text-secondary);
+}
+
+.danger {
+  color: var(--cc-danger);
+  animation: counterPulse 0.8s infinite;
+}

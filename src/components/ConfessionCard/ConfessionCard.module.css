@@ -1,0 +1,28 @@
+.card {
+  background-color: var(--cc-bg-surface);
+  border: 1px solid var(--cc-border);
+  border-left: 3px solid var(--cc-accent-dim);
+  padding: var(--cc-space-6);
+  border-radius: var(--cc-radius-md);
+  box-shadow: var(--cc-shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cc-space-4);
+  animation: fadeInSlide 400ms ease-out backwards;
+}
+
+.text {
+  font-family: var(--cc-font-body);
+  font-size: var(--cc-text-base);
+  line-height: var(--cc-leading-loose);
+  color: var(--cc-text-primary);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.timestamp {
+  font-size: var(--cc-text-xs);
+  color: var(--cc-text-secondary);
+  align-self: flex-end;
+  font-style: italic;
+}

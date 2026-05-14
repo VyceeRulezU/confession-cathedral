@@ -1,0 +1,74 @@
+/* ============================================
+   CONFESSION CATHEDRAL — DESIGN TOKENS
+   All visual values in one place. --cc-* namespace.
+   ============================================ */
+
+:root {
+  /* --- Backgrounds --- */
+  --cc-bg-base: #0f0d0b;
+  --cc-bg-surface: #1a1714;
+  --cc-bg-elevated: #242019;
+
+  /* --- Text --- */
+  --cc-text-primary: #e8e0d0;
+  --cc-text-secondary: #9a9080;
+  --cc-text-muted: #5a5248;
+
+  /* --- Accent (Candlelight Gold) --- */
+  --cc-accent: #c9a96e;
+  --cc-accent-dim: #8a6e3e;
+  --cc-accent-glow: rgba(201, 169, 110, 0.12);
+
+  /* --- Danger --- */
+  --cc-danger: #d46a5a;
+  --cc-danger-dim: rgba(212, 106, 90, 0.15);
+
+  /* --- Borders --- */
+  --cc-border: rgba(255, 255, 255, 0.06);
+  --cc-border-focus: rgba(201, 169, 110, 0.4);
+
+  /* --- Shadows --- */
+  --cc-shadow-card: 0 2px 16px rgba(0, 0, 0, 0.4);
+  --cc-shadow-form: 0 4px 32px rgba(0, 0, 0, 0.6);
+
+  /* --- Typography --- */
+  --cc-font-display: 'Cormorant Garamond', Georgia, serif;
+  --cc-font-body: 'Lato', system-ui, sans-serif;
+  --cc-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  --cc-text-xs:   0.75rem;    /* 12px */
+  --cc-text-sm:   0.875rem;   /* 14px */
+  --cc-text-base: 1rem;       /* 16px */
+  --cc-text-lg:   1.125rem;   /* 18px */
+  --cc-text-xl:   1.5rem;     /* 24px */
+  --cc-text-2xl:  2rem;       /* 32px */
+  --cc-text-4xl:  3.5rem;     /* 56px */
+
+  --cc-leading-tight:  1.2;
+  --cc-leading-normal: 1.6;
+  --cc-leading-loose:  1.8;
+
+  /* --- Spacing --- */
+  --cc-space-1:  0.25rem;
+  --cc-space-2:  0.5rem;
+  --cc-space-3:  0.75rem;
+  --cc-space-4:  1rem;
+  --cc-space-5:  1.25rem;
+  --cc-space-6:  1.5rem;
+  --cc-space-8:  2rem;
+  --cc-space-10: 2.5rem;
+  --cc-space-12: 3rem;
+  --cc-space-16: 4rem;
+  --cc-space-20: 5rem;
+
+  /* --- Radius --- */
+  --cc-radius-sm: 4px;
+  --cc-radius-md: 8px;
+  --cc-radius-lg: 12px;
+  --cc-radius-xl: 16px;
+
+  /* --- Transitions --- */
+  --cc-transition-fast: 150ms ease;
+  --cc-transition-base: 200ms ease;
+  --cc-transition-slow: 400ms ease;
+}
